@@ -5,8 +5,11 @@ To check if tweakcn themes work with `react-native-reusable` components
 1. Init an `expo` repo with `react-native-reusables`: `pnpm dlx @react-native-reusables/cli@latest init`
 2. Add tweakcn theme: `pnpm dlx shadcn@latest add https://tweakcn.com/r/themes/sunset-horizon.json`
 3. Ask Claude to update all the values in `theme.ts` with corresponding and missing values from `global.css`
-4. Ask Claude to update all the color values in `global.css` and `theme.ts` from oklch values to hex values, by giving it reference from the `index.css` file on tweakcn
-  ```
+4. Ask Claude to update all the colour values in `global.css` and `theme.ts` from oklch values to hex values, by giving it reference to the `index.css` file on tweakcn
+<details>
+  <summary>Code</summary>
+  
+```
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
@@ -181,6 +184,7 @@ To check if tweakcn themes work with `react-native-reusable` components
   }
 }
 ```
+</details>
 5. At this point, it worked for me. Solve remaining issues, if they exist, with Claude Code
 ## Demo:
 ### Android:
