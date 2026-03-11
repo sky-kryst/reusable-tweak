@@ -181,8 +181,12 @@ To check if tweakcn themes work with `react-native-reusable` components
   }
 }
 ```
-5. At this point it worked for me. Solve any remaining issues, if exists, with Claude Code
+5. At this point, it worked for me. Solve remaining issues, if they exist, with Claude Code
 ## Demo:
 ### Android:
+https://github.com/user-attachments/assets/65d01faa-b8a7-4c35-b358-d8d267f43e77
 
 ### iOS
+https://github.com/user-attachments/assets/c59c634b-768d-4f74-af14-5657e8da15aa
+
+
